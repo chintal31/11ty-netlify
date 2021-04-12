@@ -1,0 +1,17 @@
+---
+layout: base.njk
+---
+<div class="container">
+    <nav class="nav-container">
+        {% set navPages = collections.all | eleventyNavigation %}
+        {%- for entry in navPages %}
+        <div class="menu">
+            <a href="{{ entry.url }}" class="disable-link">{{ entry.title }}</a>
+        </div>
+        {%- endfor %}
+    </nav>
+
+    <main class="content-container">
+    {{ content  | safe}}
+    </main>
+</div>
