@@ -1,1 +1,1 @@
-# Static website using 11ty SSG and Netlify!" 
+# Static website built using 11ty SSG and Netlify!
