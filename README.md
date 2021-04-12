@@ -1,1 +1,1 @@
-"# Static side using 11ty SSG and Netlify!" 
+# Static website using 11ty SSG and Netlify!" 
